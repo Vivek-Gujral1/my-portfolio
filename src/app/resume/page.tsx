@@ -5,11 +5,11 @@ function ResumePage() {
     <section className='  w-full mt-20'>
       <div className=' flex flex-row gap-6 mb-6 justify-center '>
     
-        <Link className=' text-blue-500' href={"https://www.linkedin.com/in/nitin-gujral-76627b2a5/"} >LinkedIn</Link>
-        <Link href={"https://github.com/nitin31822"} className=' text-blue-500'>Github</Link>
+        <Link className=' text-blue-500' href={"https://www.linkedin.com/in/vivek-gujral1/"} >LinkedIn</Link>
+        <Link href={"https://github.com/Vivek-Gujral1"} className=' text-blue-500'>Github</Link>
 
               <Link
-                href={`https://mail.google.com/mail/?view=cm&fs=1&to=gujralnitin898@gmail.com`}
+                href={`https://mail.google.com/mail/?view=cm&fs=1&to=vivekgujral2345@gmail.com.com`}
                 className=" text-blue-500"
               >
                 Gmail
