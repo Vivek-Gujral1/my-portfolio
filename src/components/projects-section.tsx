@@ -8,7 +8,7 @@ import VideoPlayer from "./VideoComponent"
 const projects = [
   {
     name: "Management-App",
-    github: "https://github.com/hqasmei/thankful-thoughts",
+    github: "https://github.com/Vivek-Gujral1/updated-management-project",
     link: "https://thankfulthoughts.io/",
   },
   
@@ -28,46 +28,31 @@ const ProjectsSection = () => {
             <div key={idx}>
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
-                  <div className=" md:w-1/2">
-                    <VideoPlayer url="https://res.cloudinary.com/vivekgujral/video/upload/v1715500755/y7tp2nuavsyiviupvaqa.3gp" />
-                  </div>
-                  <div className=" md:w-1/2">
+                  <div className=" w-full">
                     <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                     {/* <h1 className="mb-4 mt-6 text-decoration-line: underline text-purple-300 text-center">My APP Summary In Some Points</h1> */}
         <p className="mb-4 mt-3">
-          <span className=" text-teal-600 font-bold">1 Organizations</span>: Users can create and join organizations within the
+          <span className=" text-teal-600 font-bold">1 Companies</span>: Users can create and join Companies within the
           app. This serves as the primary unit for team collaboration and task
           management.
         </p>
-        <p className="mb-4 mt-3">
-         <span className=" text-teal-600 font-bold" > 2 Stories (Rooms)</span>: Within each organization, users can create Stories,
-          which are dedicated spaces for specific projects or tasks. Managers
-          oversee these Stories and assign tasks to team members.
-        </p>
+        
         <p className="mb-4 mt-3">
           {" "}
-         <span className=" text-teal-600 font-bold"> 3 Task Management</span>: Managers can assign tasks to team members within
-          Stories. This feature helps in organizing workflow and tracking
+         <span className=" text-teal-600 font-bold"> 2 Task Management</span>: Users can assign tasks to team members within
+          Company. This feature helps in organizing workflow and tracking
           progress.
         </p>
         <p className="mb-4 mt-3">
-          <span className=" text-teal-600 font-bold" >4 Chat Section</span>: Each Story includes a chat section where team members
+          <span className=" text-teal-600 font-bold" >3 Chat Section</span>: Each Company includes a chat section where team members
           can communicate in real-time, discuss tasks, share updates, and
-          collaborate effectively.
+          collaborate effectively. You can also chat with friends for one v one chat
         </p>
         <p className="mb-4 mt-3">
-          <span className=" text-teal-600 font-bold" >5 Social Media Integration</span>: My app includes social media features
-          where organizations can create posts. These posts can be about company
-          updates, achievements, events, or any other relevant content. Users
-          can like and comment on these posts, fostering engagement and
-          interaction within the organization.
+          <span className=" text-teal-600 font-bold" >Github Link</span>: <Link className=" text-blue-700" href={project.github}>Visit Github</Link>
         </p>
-        <p className="mb-4 mt-3">
-          <span className=" text-teal-600 font-bold">6 Owner Controls</span>: Owners of organizations have administrative
-          privileges, allowing them to manage members, create posts, and oversee
-          the overall functioning of the organization within the app.
-        </p>
+        
                     </p>
                    
                   </div>
